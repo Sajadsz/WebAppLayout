@@ -100,71 +100,135 @@
         </nav>
         <!-- End of Navbar  -->
 
-        <div class="product-hero">
-            <h1>تماس با ما </h1>
-        </div>
-
-        <!-- wavy background -->
-        <div style="height: 150px; overflow: hidden">
-            <svg
-                viewBox="0 0 500 150"
-                preserveAspectRatio="none"
-                style="height: 100%; width: 100%"
-            >
-                <path
-                    d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
-                    style="stroke: none; fill: var(--clr-grey-4)"
-                ></path>
-            </svg>
-        </div>
-
-        <!-- contact us  -->
-        <section>
-            <div class="contact-container">
-                <div class="contact-main-text">
-                    <p>
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                        چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
-                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
-                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                        هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت
-                        و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
-                        متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                        برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ
-                        پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
-                        داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط
-                        سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
-                        دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود
-                        طراحی اساسا مورد استفاده قرار گیرد.
-                    </p>
+        <!-- single product -->
+        <section class="section">
+            <div class="s-product-container">
+                <div class="s-product-img">
+                    <div class="s-product-img-cover">
+                        <img src="./assets/images/image-1.jpg" alt="" />
+                        <a href="">
+                            <i class="bi bi-chevron-right change-pic-right"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-chevron-left change-pic-left"></i>
+                        </a>
+                    </div>
+                    <div class="s-product-img-other-container">
+                        <img
+                            class="s-product-img-other"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                        <img
+                            class="s-product-img-other"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                        <img
+                            class="s-product-img-other"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                        <img
+                            class="s-product-img-other"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </div>
                 </div>
-                <div class="contact-info">
-                    <p>
-                        <i class="bi bi-telephone"></i>
-                        شماره تماس: 09121122333 مهندس رضایی <br />
-                        <i class="bi bi-telephone"></i>
-                        شماره تماس: 09192233444 مهندس حسینی
-                    </p>
-                    <p>
-                        <i class="bi bi-browser-chrome"></i>
-                        آدرس وبسایت: testweb.ir
-                    </p>
-                    <p>
-                        <i class="bi bi-instagram"></i>
-                        آدرس اینستاگرام: testpage
-                    </p>
-                    <p>
-                        <i class="bi bi-envelope"></i>
-                        آدرس ایمیل: test@gmail.com
-                    </p>
-                    <p>
-                        <i class="bi bi-compass"></i>
-                        آدرس: تهران انقلاب کوچه 21 پلاک 17
-                    </p>
+                <div class="s-product-info-container">
+                    <div class="s-product-info">
+                        <h3 class="s-product-info-title">محصول شماره یک</h3>
+                        <p class="s-product-info-detail">
+                            . اطلاعات راجب محصول این یک متن مثال میباشد. اطلاعات
+                            راجب محصول این یک متن مثال میباشد. اطلاعات راجب
+                            محصول این یک متن مثال میباشد. اطلاعات راجب محصول این
+                            یک متن مثال میباشد.اطلاعات راجب محصول این یک متن
+                            مثال میباشد.اطلاعات راجب محصول این یک متن مثال
+                            میباشداطلاعات راجب محصول این یک متن مثال میباشد
+                        </p>
+                    </div>
+                    <div class="s-product-info-footer">
+                        <p>قیمت : 200000 هزار تومان</p>
+                        <a class="btn"> خرید </a>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="similar-product-title">محصولات مشابه</h3>
+            
+            <div class="card-holder">
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- End of contact us  -->
+        <!-- End of single product -->
 
         <!-- footer -->
         <footer class="footer">
@@ -205,7 +269,7 @@
                 <p>طراحي سایت توسط سجاد و نوید</p>
             </div>
         </footer>
-        <!-- End offooter -->
+        <!-- End of footer -->
 
         <script src="./assets/js/app.js"></script>
     </body>

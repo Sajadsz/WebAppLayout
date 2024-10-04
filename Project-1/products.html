@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Test Website</title>
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <!-- style css -->
+        <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+        <!-- favicon -->
+    </head>
+    <body>
+        <!-- Navbar  -->
+        <nav class="navbar">
+            <div class="navbar-center">
+                <div class="nav-header">
+                    <div>
+                        <a href="#">
+                            <h3><i class="bi bi-music-note"></i> Logo</h3></a
+                        >
+                    </div>
+                    <div class="nav-icons-left">
+                        <div class="nav-left-icons-m">
+                            <a href=""> <i class="nav-left-icon bi bi-person"></i> </a>
+                            <a href=""> <i class="nav-left-icon-2 bi bi-cart"></i> </a>
+                        </div>
+                        <button class="nav-toggle" id="nav-toggle" type="button">
+                            <i class="bi bi-list-nested"></i>
+                        </button>
+                    </div>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li>
+                        <a class="nav-link scroll-link" href="./index.html">
+                            صفحه اصلی
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link scroll-link" href="#articles">
+                            نمونه کار ها
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link scroll-link" href="./products.html">
+                            فروشگاه
+                        </a>
+                    </li>
+                    <li class="sd-container">
+                        <a class="nav-link scroll-link" href="#articles">
+                            خدمات
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="services-dropdown">
+                            <div class="services-dropdown-items">
+                                <li class="sd-container-2">
+                                    <a href="">
+                                        طراحی فضای داخلی
+                                        <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                    <ul class="services-dropdown-2">
+                                        <div class="services-dropdown-items-2">
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="sd-container-2">
+                                    <a href="">
+                                        طراحی دکوراسیون منزل
+                                        <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                    <ul class="services-dropdown-2">
+                                        <div class="services-dropdown-items-2">
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a
+                            class="nav-link scroll-link"
+                            href="./contact-us.html"
+                        >
+                            تماس با ما
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-left-icons">
+                    <a href=""> <i class="nav-left-icon bi bi-person"></i> </a>
+                    <a href=""> <i class="nav-left-icon-2 bi bi-cart"></i> </a>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navbar  -->
+
+        <!-- products hero -->
+        <div class="product-hero">
+            <h1>محصولات فروشگاه مثال</h1>
+        </div>
+
+        <!-- wavy background -->
+        <div style="height: 150px; overflow: hidden">
+            <svg
+                viewBox="0 0 500 150"
+                preserveAspectRatio="none"
+                style="height: 100%; width: 100%"
+            >
+                <path
+                    d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: var(--clr-grey-4)"
+                ></path>
+            </svg>
+        </div>
+
+        <!-- End of products hero -->
+        <!-- Products -->
+        <section class="section section-p">
+            <!-- search menu -->
+            <div class="search-product">
+                <input
+                    class="search-product-input"
+                    type="text"
+                    placeholder="جستجو کلمه کلیدی..."
+                />
+                <button class="search-product-icon">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <!-- items and products -->
+            <div class="card-holder">
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-3.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-2.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-4.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-5.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-5.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-2.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-4.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+                <div class="card-product">
+                    <a href="./single-product.html">
+                        <img
+                            class="card-product-img"
+                            src="./assets/images/image-1.jpg"
+                            alt=""
+                        />
+                    </a>
+                    <h3 class="card-product-name">محصول یک</h3>
+                    <div class="card-product-price-holder">
+                        <p class="card-product-price">قیمت: 1000000 تومان</p>
+                        <p class="card-product-price-dashed">2000000 تومان</p>
+                    </div>
+                    <div class="card-btn">
+                        <a href=""> خرید </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Products -->
+
+        <!-- Page changer  -->
+        <div class="page-changer">
+            <ul>
+                <li><a href=""> بعدی </a></li>
+                <li><a href=""> 1</a></li>
+                <li><a href=""> 2</a></li>
+                <li><a href=""> 3</a></li>
+                <li><p>....</p></li>
+                <li><a href="">23</a></li>
+                <li><a href=""> قبلی </a></li>
+            </ul>
+        </div>
+        <!-- End of Page changer  -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-icons">
+                <ul class="footer-icon">
+                    <li>
+                        <a href=""><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-instagram"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <div class="footer-contacts">
+                    <h4>راه های ارتباطی</h4>
+                    <ul>
+                        <li>شماره همراه : 09121122333</li>
+                        <li>شماره ثابت: 02166554433</li>
+                        <li>آدرس: تهران انقلاب کوچه 21 پلاک 17</li>
+                        <li>ایمیل: email@com</li>
+                    </ul>
+                </div>
+                <div class="footer-contacts">
+                    <h4>محصولات و خدمات</h4>
+                    <ul>
+                        <li><a href=""> اکسسوری </a></li>
+                        <li><a href=""> طراحی منزل </a></li>
+                        <li><a href="">بازسازی </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <p>© تمامی حقوق این وب سایت متعلق به شرکت مثال می باشد.</p>
+                <p>طراحي سایت توسط سجاد و نوید</p>
+            </div>
+        </footer>
+        <!-- End of footer -->
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>

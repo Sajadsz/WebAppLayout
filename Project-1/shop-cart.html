@@ -12,6 +12,8 @@
         <!-- favicon -->
     </head>
     <body>
+        <!-- header -->
+        
         <!-- Navbar  -->
         <nav class="navbar">
             <div class="navbar-center">
@@ -100,10 +102,10 @@
         </nav>
         <!-- End of Navbar  -->
 
+        <!-- shop cart hero -->
         <div class="product-hero">
-            <h1>تماس با ما </h1>
+            <h1>سبد خرید </h1>
         </div>
-
         <!-- wavy background -->
         <div style="height: 150px; overflow: hidden">
             <svg
@@ -118,53 +120,88 @@
             </svg>
         </div>
 
-        <!-- contact us  -->
-        <section>
-            <div class="contact-container">
-                <div class="contact-main-text">
-                    <p>
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                        چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
-                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
-                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                        هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت
-                        و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
-                        متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                        برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ
-                        پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
-                        داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط
-                        سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
-                        دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود
-                        طراحی اساسا مورد استفاده قرار گیرد.
-                    </p>
+        
+        <!-- shop cart  -->
+            <section class="section">
+                <div class="shopcart-holder">
+                    <div class="shopcart-table-container">
+                        <table class="shopcart-table">
+                            <thead>
+                                <tr>
+                                    <th style="min-width: 40px;"></th>
+                                    <th style="min-width: 400px;">محصول</th>
+                                    <th style="min-width: 160px;">قیمت </th>
+                                    <th style="min-width: 180px;">تعداد</th>
+                                    <th style="min-width: 160px;">مجموع</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> <a href=""> <i class="bi bi-x"></i> </a></td>
+                                    <td class="tbody-product-info"> <img src="./assets/images/image-1.jpg" alt=""> <p>محصول یک </p> </td>
+                                    <td> 200000 هزار تومان</td>
+                                    <td class="tbody-product-number">
+                                        <button>
+                                            <i class="bi bi-dash"> </i>
+                                        </button>
+                                        <input class="tbody-td-input" type="number" min="0" name="quantity" value="7">
+                                        <button>
+                                            <i class="bi bi-plus"></i>
+                                        </button>
+                                    </td>
+                                    <td > 1400000 هزار تومان</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href=""> <i class="bi bi-x"></i> </a></td>
+                                    <td class="tbody-product-info"> <img src="./assets/images/image-1.jpg" alt=""> <p>محصول یک </p> </td>
+                                    <td> 200000 هزار تومان</td>
+                                    <td class="tbody-product-number">
+                                        <button>
+                                            <i class="bi bi-dash"> </i>
+                                        </button>
+                                        <input class="tbody-td-input" type="number" min="0" name="quantity" value="7">
+                                        <button>
+                                            <i class="bi bi-plus"></i>
+                                        </button>
+                                    </td>
+                                    <td > 1400000 هزار تومان</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href=""> <i class="bi bi-x"></i> </a></td>
+                                    <td class="tbody-product-info"> <img src="./assets/images/image-1.jpg" alt=""> <p>محصول یک </p> </td>
+                                    <td> 200000 هزار تومان</td>
+                                    <td class="tbody-product-number">
+                                        <button>
+                                            <i class="bi bi-dash"> </i>
+                                        </button>
+                                        <input class="tbody-td-input" type="number" min="0" name="quantity" value="7">
+                                        <button>
+                                            <i class="bi bi-plus"></i>
+                                        </button>
+                                    </td>
+                                    <td > 1400000 هزار تومان</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="shopcart-tfooter">
+                        <div class="shopcart-tfooter-container">
+                            <div class="shopcart-total-buy">
+                                <ul>
+                                    <li> مجموع خرید </li>
+                                    <li> 250000 تومان</li>
+                                </ul>
+                                <a class="btn" href="./succesful-buy.html"> ثبت خرید </a>
+                            </div>
+                            <div class="shopcart-tfooter-btn">
+                                <a class="btn" href="./products.html"> خرید بیشتر </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-info">
-                    <p>
-                        <i class="bi bi-telephone"></i>
-                        شماره تماس: 09121122333 مهندس رضایی <br />
-                        <i class="bi bi-telephone"></i>
-                        شماره تماس: 09192233444 مهندس حسینی
-                    </p>
-                    <p>
-                        <i class="bi bi-browser-chrome"></i>
-                        آدرس وبسایت: testweb.ir
-                    </p>
-                    <p>
-                        <i class="bi bi-instagram"></i>
-                        آدرس اینستاگرام: testpage
-                    </p>
-                    <p>
-                        <i class="bi bi-envelope"></i>
-                        آدرس ایمیل: test@gmail.com
-                    </p>
-                    <p>
-                        <i class="bi bi-compass"></i>
-                        آدرس: تهران انقلاب کوچه 21 پلاک 17
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- End of contact us  -->
+            </section>
+        <!-- End of shop cart  -->
 
         <!-- footer -->
         <footer class="footer">

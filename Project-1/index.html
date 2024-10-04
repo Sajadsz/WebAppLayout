@@ -13,36 +13,103 @@
     </head>
     <body>
         <!-- header -->
+
         <!-- Navbar  -->
         <nav class="navbar">
             <div class="navbar-center">
                 <div class="nav-header">
-                    <a href="#"> <h3>Test Website</h3></a>
-                    <button class="nav-toggle" id="nav-toggle" type="button">
-                        <i class="bi bi-list-nested"></i>
-                    </button>
+                    <div>
+                        <a href="#">
+                            <h3><i class="bi bi-music-note"></i> Logo</h3></a
+                        >
+                    </div>
+                    <div class="nav-icons-left">
+                        <div class="nav-left-icons-m">
+                            <a href=""> <i class="nav-left-icon bi bi-person"></i> </a>
+                            <a href=""> <i class="nav-left-icon-2 bi bi-cart"></i> </a>
+                        </div>
+                        <button class="nav-toggle" id="nav-toggle" type="button">
+                            <i class="bi bi-list-nested"></i>
+                        </button>
+                    </div>
                 </div>
                 <ul class="nav-links" id="nav-links">
                     <li>
-                        <a class="nav-link scroll-link" href="./index.html"> صفحه اصلی </a>
+                        <a class="nav-link scroll-link" href="./index.html">
+                            صفحه اصلی
+                        </a>
                     </li>
                     <li>
-                        <a class="nav-link scroll-link" href="./contact-us.html"> تماس با ما </a>
+                        <a class="nav-link scroll-link" href="#articles">
+                            نمونه کار ها
+                        </a>
                     </li>
                     <li>
-                        <a class="nav-link scroll-link" href="#services"> خدمات </a>
+                        <a class="nav-link scroll-link" href="./products.html">
+                            فروشگاه
+                        </a>
+                    </li>
+                    <li class="sd-container">
+                        <a class="nav-link scroll-link" href="#articles">
+                            خدمات
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="services-dropdown">
+                            <div class="services-dropdown-items">
+                                <li class="sd-container-2">
+                                    <a href="">
+                                        طراحی فضای داخلی
+                                        <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                    <ul class="services-dropdown-2">
+                                        <div class="services-dropdown-items-2">
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="sd-container-2">
+                                    <a href="">
+                                        طراحی دکوراسیون منزل
+                                        <i class="bi bi-chevron-left"></i>
+                                    </a>
+                                    <ul class="services-dropdown-2">
+                                        <div class="services-dropdown-items-2">
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                            <li><a href=""> اشپزخانه</a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </div>
+                        </ul>
                     </li>
                     <li>
-                        <a class="nav-link scroll-link" href="#articles"> نمونه کار ها </a>
+                        <a
+                            class="nav-link scroll-link"
+                            href="./contact-us.html"
+                        >
+                            تماس با ما
+                        </a>
                     </li>
                 </ul>
-                <ul class="nav-icons">
-                    <li>09121122333 محمدی</li>
-                    <li>09191122333 رضایی </li>
-                </ul>
+                <div class="nav-left-icons">
+                    <div class="index-signup">
+                        <a href=""> <i class="nav-left-icon bi bi-person"></i> </a>
+                        <ul>
+                            <li> <a href="./login.html">  ورود</a> </li>
+                            <li> <a href="./sign-up.html"> ثبت نام </a>  </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="./shop-cart.html"> <i class="nav-left-icon-2 bi bi-cart"></i> </a>
+                    </div>
+                </div>
             </div>
         </nav>
         <!-- End of Navbar  -->
+
         <header class="header" id="home">
             <!-- hero -->
             <div class="hero">
@@ -72,11 +139,15 @@
                         </div>
                         <div class="feature-info">
                             <div class="feature-info-text">
-                                <h3>تهرانسر </h3>
+                                <h3>تهرانسر</h3>
                                 <p>نوسازی آشپزخانه</p>
                             </div>
                             <div>
-                                <a href="./product.html"> <button class="btn btn-feature">مشاهده</button> </a>
+                                <a href="./works.html">
+                                    <button class="btn btn-feature">
+                                        مشاهده
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -93,11 +164,15 @@
                         </div>
                         <div class="feature-info">
                             <div class="feature-info-text">
-                                <h3>الهیه </h3>
-                                <p>سرویس حمام و دستشویی </p>
+                                <h3>الهیه</h3>
+                                <p>سرویس حمام و دستشویی</p>
                             </div>
                             <div>
-                                <a href="./product.html"> <button class="btn btn-feature">مشاهده</button> </a>
+                                <a href="./works.html">
+                                    <button class="btn btn-feature">
+                                        مشاهده
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -113,11 +188,15 @@
                         </div>
                         <div class="feature-info">
                             <div class="feature-info-text">
-                                <h3>انقلاب </h3>
-                                <p>پذیرایی </p>
+                                <h3>انقلاب</h3>
+                                <p>پذیرایی</p>
                             </div>
                             <div>
-                                <a href="./product.html"> <button class="btn btn-feature">مشاهده</button> </a>
+                                <a href="./works.html">
+                                    <button class="btn btn-feature">
+                                        مشاهده
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +216,11 @@
                                 <p>آشپزخانه</p>
                             </div>
                             <div>
-                                <a href="./product.html"> <button class="btn btn-feature">مشاهده</button> </a>
+                                <a href="./works.html">
+                                    <button class="btn btn-feature">
+                                        مشاهده
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -154,11 +237,15 @@
                         </div>
                         <div class="feature-info">
                             <div class="feature-info-text">
-                                <h3>هاشمی </h3>
-                                <p>اتاق خواب </p>
+                                <h3>هاشمی</h3>
+                                <p>اتاق خواب</p>
                             </div>
                             <div>
-                                <a href="./product.html"> <button class="btn btn-feature">مشاهده</button> </a>
+                                <a href="./works.html">
+                                    <button class="btn btn-feature">
+                                        مشاهده
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -174,51 +261,54 @@
         <section class="section about-section">
             <div class="about-text">
                 <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                    استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
-                    در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-                    نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
-                    جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                    برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
-                    زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
-                    دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
-                    وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
-                    پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
+                    افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                    طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                    صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+                    راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                    حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                    موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
                 <br />
                 <br />
                 <br />
                 <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                    استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
-                    در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-                    نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
-                    جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                    برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
-                    زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
-                    دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
-                    وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
-                    پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
+                    افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                    طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                    صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+                    راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                    حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                    موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
                 <br />
                 <p>
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                    استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
-                    در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-                    نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
-                    جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                    برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
-                    زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
-                    دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
-                    وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
-                    پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
+                    افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                    طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این
+                    صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+                    راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل
+                    حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                    موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
             </div>
             <div class="about-img">
-                <img src="./assets/images/image-6.jpg" alt="">
+                <img src="./assets/images/image-6.jpg" alt="" />
             </div>
         </section>
         <!-- End of about us -->
@@ -227,28 +317,33 @@
         <footer class="footer">
             <div class="footer-icons">
                 <ul class="footer-icon">
-                    <li> <a href=""><i class="bi bi-telegram"></i></a>  </li>
-                    <li> <a href=""><i class="bi bi-instagram"></i> </a> </li>
-                    <li> <a href=""><i class="bi bi-whatsapp"></i></a>  </li>
+                    <li>
+                        <a href=""><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-instagram"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-whatsapp"></i></a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-links">
                 <div class="footer-contacts">
                     <h4>راه های ارتباطی</h4>
                     <ul>
-                        <li> شماره همراه : 09121122333   </li>
-                        <li> شماره ثابت: 02166554433</li>
-                        <li> آدرس: تهران انقلاب کوچه 21 پلاک 17 </li>
-                        <li> ایمیل: email@com</li>
+                        <li>شماره همراه : 09121122333</li>
+                        <li>شماره ثابت: 02166554433</li>
+                        <li>آدرس: تهران انقلاب کوچه 21 پلاک 17</li>
+                        <li>ایمیل: email@com</li>
                     </ul>
                 </div>
                 <div class="footer-contacts">
                     <h4>محصولات و خدمات</h4>
                     <ul>
-                        <li><a href=""> اشپزخانه</a></li>
-                        <li><a href=""> اتاق خواب </a></li>
-                        <li><a href="">پذیرایی</a></li>
-                        <li><a href=""> حمام و دستشویی</a></li>
+                        <li><a href=""> اکسسوری </a></li>
+                        <li><a href=""> طراحی منزل </a></li>
+                        <li><a href="">بازسازی </a></li>
                     </ul>
                 </div>
             </div>
@@ -258,7 +353,6 @@
             </div>
         </footer>
         <!-- End offooter -->
-
 
         <script src="./assets/js/app.js"></script>
     </body>
