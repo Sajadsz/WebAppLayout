@@ -251,13 +251,17 @@ navbar
 }
 .services-dropdown-items-2 {
     padding-top: 1rem ;
+    transition: var(--transition);
 }
-.services-dropdown-items-2 > li{
+.services-dropdown-items-2 > a{
     display: block;
     padding: 1rem 0;
     font-size: 1rem;
     cursor: pointer;
     color: var(--clr-grey-1);
+}
+.services-dropdown-items-2 a:hover{
+    color: var(--clr-primary-3);
 }
 .index-signup-dropdown-m {
     display: none;
@@ -311,7 +315,7 @@ navbar
         display: none;
     }
     .sd-container:hover .services-dropdown {
-        display: block;
+        display: inline-block;
         height: auto;
         overflow: visible;
     }
@@ -331,7 +335,7 @@ navbar
         right: 100%;
     }
     .sd-container-2:hover .services-dropdown-2 {
-        display: block;
+        display: inline-block;
         height: auto;
         overflow: visible;
     }
@@ -719,10 +723,10 @@ products page
 .card-holder {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    row-gap: 2rem;
+    gap: 1rem;
 }
 .card-product {
-    max-width: 350px;
+    max-width: 100%;
     background: var(--clr-grey-4);
     padding-bottom: 1rem;
     border: solid 1px #ddd;
@@ -734,7 +738,7 @@ products page
     transform: scale(1.05);
 }
 .card-product-img {
-    width: 349px;
+    width: 100%;
     height: 250px;
     margin-bottom: 0.75rem;
     border-radius: 5%;
@@ -785,18 +789,18 @@ products page
 }
 @media (max-width: 992px) {
     .card-holder {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         gap: 0.5rem;
     }
     .card-product {
-        max-width: 220px;
+        max-width: 100%;
     }
     .card-product-img {
-        width: 219px;
-        height: 150px;
+        max-width: 100%;
+        height: 219px;
     }
     .search-product-input {
-        width: 220px;
+        width: 100%;
         padding: 1rem 0;
     }
     .search-product-icon {
